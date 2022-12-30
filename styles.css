@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html{ 
+    background-color: rgb(173, 239, 209);
+    font-family: 'Roboto', sans-serif;
+
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.second-container {
+    margin-top: 100px;
+}
+
+.heading {
+    font-size: 18px;
+    font-family: 'Chivo Mono';
+    color: #00203fff;
+    text-align: center;
+    margin-bottom: 0;
+}
+.heading2 {
+    font-family: 'Bangers';
+    font-size: 45px;
+    color: #00203fff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.rock, .paper, .scissors {
+    padding: 20px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(0, 32, 63);
+    color: #adefd1ff;
+    border: none;
+    border-radius: 15px;
+    margin: 15px;
+    transition: all 0.2s;
+}
+
+.rock:hover, .paper:hover, .scissors:hover, .play-again:hover {
+    box-shadow: 0 10px 25px rgba(0, 32, 36, 0.8);
+    transform: scale(1.1);
+}
+
+i {
+    transition: all 0.2s;
+    font-size: 25px;
+}
+
+i:hover {
+    transform: rotate(15deg) scale(1.2);
+}
+header {
+    font-family: 'Bangers';
+    color: #adefd1ff;
+    background-color: #00203fff;
+    padding: 25px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-again {
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+    color: #adefd1ff;
+    background-color: #00203fff;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.player-score, .computer-score {
+    font-family: 'Chivo Mono';
+    font-weight: 500;
+    color: #00203fff;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.game-winner {
+    font-family: 'Bangers';
+    color:rgb(0, 32, 63);
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+.battle {
+    font-family: 'Chivo Mono';
+    color: #00203fff;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom:0 ;
+    margin-top: 8px;
+}
